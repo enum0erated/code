@@ -1,0 +1,11 @@
+.the_image {
+    min-height: 200px;
+    width: 200px;
+    background-color: rgb(128, 128, 128); /* show gray square if image not loaded yet */
+}
+
+.the_image.lazyloaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
